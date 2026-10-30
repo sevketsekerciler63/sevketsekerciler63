@@ -1,8 +1,8 @@
 # Şevket
 
-Üniversite öğrencisiyim. Flutter ve React ile uygulama yapıyorum.
+Üniversite öğrencisiyim. Yazılımı yapay zekâ asistanlarıyla geliştiriyorum, bunu saklamıyorum. Ne yapılacağına, nelerin kapsam dışı kalacağına ben karar veriyorum; kodu asistan yazıyor, ben testleri ve derlemeyi çalıştırıp sonuca bakıyorum. Çalıştırmadığım bir şeyin çalıştığını söylemem, denemediklerimi de README'lerde yazıyorum.
 
-Kodu yazarken yapay zekâ asistanlarından yardım alıyorum, bunu saklamıyorum. Ne yapılacağına, nelerin kapsam dışı kalacağına ben karar veriyorum; kodu asistan yazıyor, sonra testleri ve derlemeyi çalıştırıp sonuca bakıyorum. Çalıştırmadığım bir şeyin çalıştığını söylemem, denemediklerimi de README'lerde yazıyorum.
+Projelerimde şimdilik Flutter ve React kullandım.
 
 ## Projeler
 
