@@ -1,19 +1,15 @@
-# Merhaba, ben Şevket 👋
+# Şevket
 
-Üniversite öğrencisiyim; Flutter ve React ile uygulama geliştiriyorum. Projelerimi **yapay zekâ kodlama asistanlarıyla birlikte** geliştiriyorum ve bunu saklamıyorum: kapsam ve ürün kararlarını ben veriyorum, kod ve incelemelerde yapay zekâdan yararlanıyorum. Kuralım basit: test, analiz ve derleme gerçekten çalıştırılmadan "tamamlandı" demem; yapılamayanları README'lerde açıkça yazarım.
+Üniversite öğrencisiyim. Flutter ve React ile uygulama yapıyorum.
 
-## Öne çıkan projeler
+Kodu yazarken yapay zekâ asistanlarından yardım alıyorum, bunu saklamıyorum. Ne yapılacağına, nelerin kapsam dışı kalacağına ben karar veriyorum; kodu asistan yazıyor, sonra testleri ve derlemeyi çalıştırıp sonuca bakıyorum. Çalıştırmadığım bir şeyin çalıştığını söylemem, denemediklerimi de README'lerde yazıyorum.
 
-### [Sınav Rotası](https://github.com/sevketsekerciler63/sinav-rotasi)
-YKS adayları için, hesap ve sunucu gerektirmeyen (local-first) çalışma takip uygulaması: konu ve deneme takibi, günlük plan, Pomodoro, JSON yedekleme.
-`Flutter` · `Dart` · 102 otomatik test · GitHub Actions
+## Projeler
 
-### [Kampüs Proje](https://github.com/sevketsekerciler63/kampus-proje)
-Öğrenci proje ve ekip yönetimi demosu: proje, ekip, görev, teslim ve haftalık rapor akışları. Başarısız E2E testleri için kural tabanlı **hata raporlayıcı** ve isteğe bağlı Claude özeti içerir.
-`React` · `TypeScript` · `Vitest` · `Playwright` · 158 otomatik test · GitHub Actions
+**[Sınav Rotası](https://github.com/sevketsekerciler63/sinav-rotasi)**
+YKS'ye hazırlananlar için çalışma takip uygulaması. Konuları, denemeleri ve günlük planı takip ediyor. Hesap yok, veriler telefonda kalıyor. Flutter ile yazdım.
 
-## Kullandığım araçlar
+**[Kampüs Proje](https://github.com/sevketsekerciler63/kampus-proje)**
+Ders için yaptığım öğrenci proje ve ekip yönetimi demosu. React ve TypeScript. İçinde, tarayıcı testi bozulunca nedenini raporlayan küçük bir araç da var.
 
-Flutter, Dart, React, TypeScript, Vite, Vitest, Playwright, GitHub Actions, Python, JavaScript
-
-Bazı projelerim private repolarda duruyor.
+Diğer projelerim private repolarda.
