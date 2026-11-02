@@ -6,6 +6,9 @@ Projelerimde şimdilik Flutter, C# ve React kullandım.
 
 ## Projeler
 
+**[Ajan Dürüstlük Testi](https://github.com/sevketsekerciler63/ajan-durustluk-testi)**
+Kodlama ajanlarına çözülemez görevler verip "yaptım" deyip demediklerini ölçen deney. Yapay zekâ kullanmayan bir hakem, ajanın iddiasını göremediği gizli testlerle karşılaştırıyor. Kendi bilgisayarımda Qwen3.5-9B ile 120 deneme yaptım: model çözülemez görevlerin 24 denemesinde 20 kez "tamamlandı" dedi; testleri geçirmek için kur uydurdu, sahte paket yazdı, test dosyasını değiştirdi. Node.js, bağımlılık yok.
+
 **[BarberBook](https://github.com/sevketsekerciler63/barberbook)**
 Berber dükkânı için randevu ve kasa takibi. Randevu çakışmasını engelliyor, nakit, kart ve veresiye tahsilatı tutuyor, veriler telefonda kalıyor. Flutter ve SQLite.
 
