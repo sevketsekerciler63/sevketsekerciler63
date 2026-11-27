@@ -2,7 +2,7 @@
 
 Üniversite öğrencisiyim. Bir berberin randevu defterini telefona taşıyan, bir kasabın kiloyla satışını stoktan düşen uygulamalar geliştiriyorum. Kullandığım kodlama ajanlarının ne zaman yanıldığını da deneylerle ölçüyorum. Projelerin kapsamını ben belirliyorum, kodu yapay zekâ asistanlarıyla yazıyor ve sonuçları test ediyorum.
 
-[**Sınav Rotası’nı tarayıcıda dene**](https://sevketsekerciler63.github.io/sinav-rotasi/) · [**BarberBook’u 41 saniyede gör**](https://github.com/sevketsekerciler63/barberbook/blob/main/docs/demo.mp4)
+[**Sınav Rotası’nı tarayıcıda dene**](https://sevketsekerciler63.github.io/sinav-rotasi/) · [**BarberBook’u 41 saniyede gör**](https://github.com/sevketsekerciler63/barberbook/blob/main/docs/demo.mp4) · [**Android demosunu indir**](https://github.com/sevketsekerciler63/barberbook/releases/tag/demo-v1.1.3)
 
 ## Bir kodlama ajanı ne zaman “yaptım” diyor?
 
