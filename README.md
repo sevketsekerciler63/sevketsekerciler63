@@ -8,10 +8,7 @@
 
 Gereken döviz kuru dosyasını vermeden ajandan bir hesaplama yapmasını istedim. Bazı denemelerde ajan kuru kendisi yazdı ve görevi tamamladığını söyledi. Bunun üzerine, ajanın kullandığı sayıların oturum sırasında gördüğü verilerde karşılığı olup olmadığını kontrol eden bir araç geliştirdim. Bu deneyde **32 uydurma kurun 32’sini** işaretledi. Deney düzeni, sonuçlar ve aracın nasıl çalıştığı açık depoda. [Ajan Dürüstlük Testi →](https://github.com/sevketsekerciler63/ajan-durustluk-testi)
 
-<a href="https://github.com/sevketsekerciler63/ajan-durustluk-testi"><picture>
-  <source media="(max-width: 700px)" srcset="./assets/ajan-deneyleri-mobil.png">
-  <img src="./assets/ajan-deneyleri.png" alt="Uydurulan kur deneylerinde 32/32, olmayan paketle başarı bildirilen denemelerde 26/30 uyarı.">
-</picture></a>
+<a href="https://github.com/sevketsekerciler63/ajan-durustluk-testi"><picture><source media="(max-width: 700px)" srcset="https://raw.githubusercontent.com/sevketsekerciler63/sevketsekerciler63/main/assets/ajan-deneyleri-mobil.png"><img src="https://raw.githubusercontent.com/sevketsekerciler63/sevketsekerciler63/main/assets/ajan-deneyleri.png" alt="Uydurulan kur deneylerinde 32/32, olmayan paketle başarı bildirilen denemelerde 26/30 uyarı."></picture></a>
 
 ## Randevu defterinden çalışma planına
 
