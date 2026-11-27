@@ -1,6 +1,6 @@
 # Şevket Şekerciler
 
-Üniversite öğrencisiyim. Bir berberin randevu defterini telefona taşıyan, bir kasabın kiloyla satışını stoktan düşen uygulamalar geliştiriyorum. Bir de bu işleri yaparken kullandığım yapay zekâ araçlarının ne zaman yanıldığını ölçüyorum. Projelerin kapsamını ben belirliyorum, kodu yapay zekâ asistanlarıyla yazıyor ve sonuçları test ediyorum.
+Üniversite öğrencisiyim. Bir berberin randevu defterini telefona taşıyan, bir kasabın kiloyla satışını stoktan düşen uygulamalar geliştiriyorum. Kullandığım kodlama ajanlarının ne zaman yanıldığını da deneylerle ölçüyorum. Projelerin kapsamını ben belirliyorum, kodu yapay zekâ asistanlarıyla yazıyor ve sonuçları test ediyorum.
 
 [**Sınav Rotası’nı tarayıcıda dene**](https://sevketsekerciler63.github.io/sinav-rotasi/) · [**BarberBook’u 41 saniyede gör**](https://github.com/sevketsekerciler63/barberbook/blob/main/docs/demo.mp4)
 
@@ -8,12 +8,15 @@
 
 Gereken döviz kuru dosyasını vermeden ajandan bir hesaplama yapmasını istedim. Bazı denemelerde ajan kuru kendisi yazdı ve görevi tamamladığını söyledi. Bunun üzerine, ajanın kullandığı sayıların oturum sırasında gördüğü verilerde karşılığı olup olmadığını kontrol eden bir araç geliştirdim. Bu deneyde **32 uydurma kurun 32’sini** işaretledi. Deney düzeni, sonuçlar ve aracın nasıl çalıştığı açık depoda. [Ajan Dürüstlük Testi →](https://github.com/sevketsekerciler63/ajan-durustluk-testi)
 
-## Uygulamalarımdan iki ekran
+[![Uydurulan döviz kuru deneylerinde 32 denemenin 32’sinde, olmayan paketle tamamlandığı bildirilen görevlerde 30 denemenin 26’sında uyarı verildi.](assets/ajan-deneyleri.png)](https://github.com/sevketsekerciler63/ajan-durustluk-testi)
 
-| BarberBook · Günlük takvim | Sınav Rotası · Çalışma planı |
-| :--- | :--- |
-| <a href="https://github.com/sevketsekerciler63/barberbook"><img src="https://raw.githubusercontent.com/sevketsekerciler63/barberbook/main/docs/screenshots/01-takvim.png" width="220" alt="BarberBook günlük takviminde örnek randevular ve tahsilat özeti"></a> | <a href="https://sevketsekerciler63.github.io/sinav-rotasi/"><img src="https://raw.githubusercontent.com/sevketsekerciler63/sinav-rotasi/master/docs/screenshots/ana-sayfa.png" width="220" alt="Sınav Rotası ana ekranında konu ilerlemesi ve günlük çalışma planı"></a> |
-| Berber aynı ekranda sıradaki müşteriyi ve günün tahsilatını görüyor. Randevular ve kasa kayıtları telefonda tutuluyor. [Flutter ve SQLite kodu →](https://github.com/sevketsekerciler63/barberbook) | YKS’ye hazırlanan öğrenci konularını işaretliyor, deneme netlerini kaydediyor ve ilerlemesini takip ediyor. [Flutter kodu →](https://github.com/sevketsekerciler63/sinav-rotasi) |
+## Randevu defterinden çalışma planına
+
+<a href="https://github.com/sevketsekerciler63/barberbook"><img src="https://raw.githubusercontent.com/sevketsekerciler63/barberbook/main/docs/screenshots/01-takvim.png" width="34%" alt="BarberBook günlük takviminde örnek randevular ve tahsilat özeti"></a>
+<a href="https://sevketsekerciler63.github.io/sinav-rotasi/"><img src="https://raw.githubusercontent.com/sevketsekerciler63/sinav-rotasi/master/docs/screenshots/ana-sayfa.png" width="34%" alt="Sınav Rotası ana ekranında günlük çalışma planı ve konu ilerlemesi"></a>
+
+- **BarberBook** · Berber sıradaki müşteriyi ve günün tahsilatını aynı ekranda görüyor. Randevular ve kasa hareketleri telefonda tutuluyor. [Flutter ve SQLite kodu →](https://github.com/sevketsekerciler63/barberbook)
+- **Sınav Rotası** · YKS’ye hazırlanan öğrenci bitirdiği konuları işaretliyor, deneme netlerini kaydediyor ve ilerlemesini takip ediyor. [Flutter kodu →](https://github.com/sevketsekerciler63/sinav-rotasi)
 
 ## Diğer çalışmalarım
 
