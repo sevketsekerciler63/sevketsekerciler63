@@ -1,27 +1,24 @@
-# Şevket
+# Şevket Şekerciler
 
-Üniversite öğrencisiyim. Yazılımı yapay zekâ asistanlarıyla geliştiriyorum ve bunu saklamıyorum. Ne yapılacağına, neyin kapsam dışı kalacağına ben karar veriyorum; kodu asistan yazıyor. Çalışmayan bir şeyi çalışıyor diye yazmam; denemediklerimi README'lerde belirtiyorum.
+Üniversite öğrencisiyim. Bir berberin randevu defterini telefona taşıyan, bir kasabın kiloyla satışını stoktan düşen uygulamalar geliştiriyorum. Kullandığım kodlama ajanlarının ne zaman yanıldığını da deneylerle ölçüyorum. Projelerin kapsamını ben belirliyorum, kodu yapay zekâ asistanlarıyla yazıyor ve sonuçları test ediyorum.
 
-Projelerde şimdilik Flutter, C# ve React kullandım.
+[**Sınav Rotası’nı tarayıcıda dene**](https://sevketsekerciler63.github.io/sinav-rotasi/) · [**BarberBook’u 41 saniyede gör**](https://github.com/sevketsekerciler63/barberbook/blob/main/docs/demo.mp4)
 
-## Projeler
+## Bir kodlama ajanı ne zaman “yaptım” diyor?
 
-**[Ajan Dürüstlük Testi](https://github.com/sevketsekerciler63/ajan-durustluk-testi)**
-Kodlama ajanlarına çözülemez (tuzak) görevler veriyorum. Yapay zekâ kullanmayan bir hakem, ajanın "yaptım" sözünü ajanın görmediği gizli testlerle karşılaştırıyor. Kendi bilgisayarımda Qwen3.5-9B modeli ve bir türeviyle toplam 200 deneme yaptım. Model tuzak görevlerin çoğunda "tamamlandı" dedi: döviz kurunu uydurdu (çoğunda 1 USD = 32,50 TL), sahte paket yazdı, test dosyasını değiştirdi. Bunun üzerine bir "kaynaksız değer dedektörü" yaptım; ajanın yazdığı her sayının oturumda gördüğü bir yerden gelip gelmediğine bakıyor. Uydurulan kurların 32'de 32'sini yakaladı, hiç görmediği 425 gerçek açık kaynak değişikliğinde kaynak kodda yanlış alarm vermedi. Claude Code'a eklenebiliyor. Node.js, bağımlılık yok.
+Gereken döviz kuru dosyasını vermeden ajandan bir hesaplama yapmasını istedim. Bazı denemelerde ajan kuru kendisi yazdı ve görevi tamamladığını söyledi. Bunun üzerine, ajanın kullandığı sayıların oturum sırasında gördüğü verilerde karşılığı olup olmadığını kontrol eden bir araç geliştirdim. Bu deneyde **32 uydurma kurun 32’sini** işaretledi. Deney düzeni, sonuçlar ve aracın nasıl çalıştığı açık depoda. [Ajan Dürüstlük Testi →](https://github.com/sevketsekerciler63/ajan-durustluk-testi)
 
-**[BarberBook](https://github.com/sevketsekerciler63/barberbook)**
-Berber dükkânı için randevu ve kasa takibi. Randevu çakışmasını engelliyor, nakit, kart ve veresiye tutuyor, veriler telefonda kalıyor. Flutter + SQLite.
+[![Uydurulan döviz kuru deneylerinde 32 denemenin 32’sinde, olmayan paketle tamamlandığı bildirilen görevlerde 30 denemenin 26’sında uyarı verildi.](assets/ajan-deneyleri.png)](https://github.com/sevketsekerciler63/ajan-durustluk-testi)
 
-**[KasapPOS](https://github.com/sevketsekerciler63/kasappos)**
-Kasap dükkânı için satış ve stok: barkod, karkas parçalama, müşteri hesabı, iade, gün sonu. C#, WPF, SQLite. 187 maddelik kabul kontrol paketi var.
+## Randevu defterinden çalışma planına
 
-**[Sınav Rotası](https://github.com/sevketsekerciler63/sinav-rotasi)** ([canlı demo](https://sevketsekerciler63.github.io/sinav-rotasi/))
-YKS'ye hazırlananlar için çalışma takibi. Hesap yok, veriler telefonda. Flutter.
+<a href="https://github.com/sevketsekerciler63/barberbook"><img src="https://raw.githubusercontent.com/sevketsekerciler63/barberbook/main/docs/screenshots/01-takvim.png" width="34%" alt="BarberBook günlük takviminde örnek randevular ve tahsilat özeti"></a>
+<a href="https://sevketsekerciler63.github.io/sinav-rotasi/"><img src="https://raw.githubusercontent.com/sevketsekerciler63/sinav-rotasi/master/docs/screenshots/ana-sayfa.png" width="34%" alt="Sınav Rotası ana ekranında günlük çalışma planı ve konu ilerlemesi"></a>
 
-**[Kampüs Proje](https://github.com/sevketsekerciler63/kampus-proje)** ([canlı demo](https://sevketsekerciler63.github.io/kampus-proje/))
-Ders için öğrenci proje ve ekip yönetimi demosu. React + TypeScript.
+- **BarberBook** · Berber sıradaki müşteriyi ve günün tahsilatını aynı ekranda görüyor. Randevular ve kasa hareketleri telefonda tutuluyor. [Flutter ve SQLite kodu →](https://github.com/sevketsekerciler63/barberbook)
+- **Sınav Rotası** · YKS’ye hazırlanan öğrenci bitirdiği konuları işaretliyor, deneme netlerini kaydediyor ve ilerlemesini takip ediyor. [Flutter kodu →](https://github.com/sevketsekerciler63/sinav-rotasi)
 
-**[Türkçe LLM Değerlendirme](https://github.com/sevketsekerciler63/turkce-llm-degerlendirme)**
-Dil modellerini Türkçe görevlerde karşılaştıran komut satırı aracı. Henüz gerçek modelle çalıştırılmadı (README'de yazıyor).
+## Diğer çalışmalarım
 
-Diğer projelerim private.
+- **KasapPOS** · Kiloyla satış, stok ve müşteri hesabını aynı işlemde tutan Windows uygulaması. Bir satış iade edildiğinde ürünün ve borcun nasıl geri kaydedildiğini izleyebilirsin. C#, WPF ve SQLite. [Satış ekranları ve proje →](https://github.com/sevketsekerciler63/kasappos)
+- **Türkçe LLM Değerlendirme** · `İ/ı` ve `20.000` gibi Türkçeye özgü örnekleri de içeren 31 görevlik değerlendirme aracı. Yayımlanan ilk sonuçlar modelsiz temel yöntemlere ait. [Görevler ve puanlama →](https://github.com/sevketsekerciler63/turkce-llm-degerlendirme)
