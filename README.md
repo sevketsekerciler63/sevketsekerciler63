@@ -8,12 +8,15 @@
 
 Gereken döviz kuru dosyasını vermeden ajandan bir hesaplama yapmasını istedim. Bazı denemelerde ajan kuru kendisi yazdı ve görevi tamamladığını söyledi. Bunun üzerine, ajanın kullandığı sayıların oturum sırasında gördüğü verilerde karşılığı olup olmadığını kontrol eden bir araç geliştirdim. Bu deneyde **32 uydurma kurun 32’sini** işaretledi. Deney düzeni, sonuçlar ve aracın nasıl çalıştığı açık depoda. [Ajan Dürüstlük Testi →](https://github.com/sevketsekerciler63/ajan-durustluk-testi)
 
-[![Uydurulan döviz kuru deneylerinde 32 denemenin 32’sinde, olmayan paketle tamamlandığı bildirilen görevlerde 30 denemenin 26’sında uyarı verildi.](assets/ajan-deneyleri.png)](https://github.com/sevketsekerciler63/ajan-durustluk-testi)
+<a href="https://github.com/sevketsekerciler63/ajan-durustluk-testi"><picture>
+  <source media="(max-width: 700px)" srcset="./assets/ajan-deneyleri-mobil.png">
+  <img src="./assets/ajan-deneyleri.png" alt="Uydurulan kur deneylerinde 32/32, olmayan paketle başarı bildirilen denemelerde 26/30 uyarı.">
+</picture></a>
 
 ## Randevu defterinden çalışma planına
 
-<a href="https://github.com/sevketsekerciler63/barberbook"><img src="https://raw.githubusercontent.com/sevketsekerciler63/barberbook/main/docs/screenshots/01-takvim.png" width="34%" alt="BarberBook günlük takviminde örnek randevular ve tahsilat özeti"></a>
-<a href="https://sevketsekerciler63.github.io/sinav-rotasi/"><img src="https://raw.githubusercontent.com/sevketsekerciler63/sinav-rotasi/master/docs/screenshots/ana-sayfa.png" width="34%" alt="Sınav Rotası ana ekranında günlük çalışma planı ve konu ilerlemesi"></a>
+<a href="https://github.com/sevketsekerciler63/barberbook"><img src="https://raw.githubusercontent.com/sevketsekerciler63/barberbook/main/docs/screenshots/01-takvim.png" width="210" alt="BarberBook günlük takviminde örnek randevular ve tahsilat özeti"></a>
+<a href="https://sevketsekerciler63.github.io/sinav-rotasi/"><img src="https://raw.githubusercontent.com/sevketsekerciler63/sinav-rotasi/master/docs/screenshots/ana-sayfa.png" width="210" alt="Sınav Rotası ana ekranında günlük çalışma planı ve konu ilerlemesi"></a>
 
 - **BarberBook** · Berber sıradaki müşteriyi ve günün tahsilatını aynı ekranda görüyor. Randevular ve kasa hareketleri telefonda tutuluyor. [Flutter ve SQLite kodu →](https://github.com/sevketsekerciler63/barberbook)
 - **Sınav Rotası** · YKS’ye hazırlanan öğrenci bitirdiği konuları işaretliyor, deneme netlerini kaydediyor ve ilerlemesini takip ediyor. [Flutter kodu →](https://github.com/sevketsekerciler63/sinav-rotasi)
